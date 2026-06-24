@@ -1,11 +1,12 @@
 import { Router, type IRouter } from "express";
-import healthRouter from "./health";
-import appointmentsRouter from "./appointments";
-import servicesRouter from "./services";
-import testimonialsRouter from "./testimonials";
-import galleryRouter from "./gallery";
-import messagesRouter from "./messages";
-import dashboardRouter from "./dashboard";
+
+import healthRouter from "./health.js";
+import appointmentsRouter from "./appointments.js";
+import servicesRouter from "./services.js";
+import testimonialsRouter from "./testimonials.js";
+import galleryRouter from "./gallery.js";
+import messagesRouter from "./messages.js";
+import dashboardRouter from "./dashboard.js";
 
 const router: IRouter = Router();
 
