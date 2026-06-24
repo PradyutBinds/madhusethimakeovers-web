@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { db, messagesTable } from "../../src/server/db";
+import { db, messagesTable } from "../../src/server/db.js.js";
 import { eq, desc } from "drizzle-orm";
-import { CreateMessageBody, UpdateMessageBody } from "../../src/server/validation";
+import { CreateMessageBody, UpdateMessageBody } from "../../src/server/validation.js.js";
 
 const router = Router();
 
