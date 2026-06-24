@@ -1,5 +1,5 @@
 import { Router, type IRouter } from "express";
-import { HealthCheckResponse } from "../../src/server/validation.js.js";
+import { HealthCheckResponse } from "../../src/server/validation.js";
 
 const router: IRouter = Router();
 
