@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { db, testimonialsTable } from "../../src/server/db.js.js";
+import { db, testimonialsTable } from "../../src/server/db.js";
 import { eq, desc } from "drizzle-orm";
 import { CreateTestimonialBody, UpdateTestimonialBody } from "../../src/server/validation.js";
 

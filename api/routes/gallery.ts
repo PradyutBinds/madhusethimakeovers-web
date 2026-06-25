@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { db, galleryTable } from "../../src/server/db.js.js";
+import { db, galleryTable } from "../../src/server/db.js";
 import { eq, desc } from "drizzle-orm";
 import { CreateGalleryImageBody } from "../../src/server/validation.js";
 

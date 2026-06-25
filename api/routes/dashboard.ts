@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { db, appointmentsTable, messagesTable, testimonialsTable, servicesTable, galleryTable } from "../../src/server/db.js.js";
+import { db, appointmentsTable, messagesTable, testimonialsTable, servicesTable, galleryTable } from "../../src/server/db.js";
 import { eq, desc } from "drizzle-orm";
 
 const router = Router();

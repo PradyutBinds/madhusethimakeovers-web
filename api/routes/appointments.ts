@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { db, appointmentsTable } from "../../src/server/db.js.js";
+import { db, appointmentsTable } from "../../src/server/db.js";
 import { eq, desc, count } from "drizzle-orm";
 import { CreateAppointmentBody, UpdateAppointmentBody, ListAppointmentsQueryParams } from "../../src/server/validation.js";
 
